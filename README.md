@@ -1,4 +1,5 @@
 # Werkzeug Console PIN Exploit
+![alt text](https://github.com/ahrixia/flask-console-pin-generator/blob/main/poc-img/Werkzeug_Console_OUT.png "Locked Console")
 ### Tested on :
 - Python 3.6.9
 - Server - Werkzeug 1.0.1
@@ -27,6 +28,6 @@ Python V3.7 PIN: 300-924-247
 Python V3.8 PIN: 880-398-758
 ```
 4. Use the PIN with the Python Version installed on the target to get into the console.
-
+![alt text](https://github.com/ahrixia/flask-console-pin-generator/blob/main/poc-img/Werkzeug_Console_IN.png "Unlocked Console")
 ---
-**NOTE**: This script runs with some default infomation such as Username as www-data and Hash as MD5.
+**NOTE**: This script runs with some default infomation such as Username as www-data and Hash as MD5. You can run the `-h` flag for more information.
