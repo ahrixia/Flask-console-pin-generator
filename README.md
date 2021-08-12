@@ -7,7 +7,7 @@
 
 ## Proof of Concept - POC
 1. Get `/etc/machine-id` and `/sys/class/net/$INTERFACE/address` from the target. 
-3. Convert the interface address(MAC) to integer form. Eg- `00:50:56:bf:d7:70` to `345052796784`. This could be done using python as follows:
+3. Convert the Interface address(MAC) to integer form. Eg- `00:50:56:bf:d7:70` to `345052796784`. This could be done using python as follows:
 ```python
 >>> print(0x005056bfd770)
 345052796784
