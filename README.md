@@ -14,7 +14,7 @@
 ```
 3. Run the python script.
 ```bash
-$python as.py --uuid 345052796784  --machineid 00566233196142e9961b4ea12a2bdb29 
+$python3 as.py --uuid 345052796784  --machineid 00566233196142e9961b4ea12a2bdb29 
 [!] App.py base path not provided, trying on Python Versions - 2.7 and 3.0 - 3.8.
 Python V2.7 PIN: 134-138-423
 Python V3.0 PIN: 278-866-810
