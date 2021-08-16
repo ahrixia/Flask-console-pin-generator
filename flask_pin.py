@@ -32,9 +32,10 @@ def get_pin(args):
     hashes   = args.hash 
     probably_public_bits = [username,modname,appname,fname]
     private_bits = [args.uuid, args.machineid]
-    if hashes == 'MD5' or hashes == 'md5':
+    hashes = hashes.lower()
+    if hashes == 'md5':
         h = hashlib.md5()
-    elif hashes == 'SHA1' or hashes == 'sha1':
+    elif hashes == 'sha1':
         h = hashlib.sha1()
     else:
         print("[!] Select the right hashing algorithm - MD5 or SHA1")
